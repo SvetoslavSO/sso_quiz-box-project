@@ -64,39 +64,64 @@
   margin-right: 0;
 }
 
-.messenger__link--first::before{
+.messenger__link::before{
   position: absolute;
   display: block;
   content: '';
-  height: 36px;
-  width: 214px;
-  background: url('../pictures/sprite.png') no-repeat -10px -10px;
-  overflow:hidden;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: opacity .3s;
 }
 
-.messenger__link--first:hover::before{
-  transition: 0s;
-  background: url('../pictures/sprite.png') no-repeat -10px -66px;
+.messenger__link::after {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .3s;
 }
 
-.messenger__link--second:hover{
-  transition: 0s;
+.messenger__link:hover::before {
+    opacity: 0;
+}
+.messenger__link:hover::after {
+    opacity: 1;
+}
+
+
+.messenger__link--tg::before {
+    background: url('../pictures/sprite.png') no-repeat -10px -10px;
+}
+.messenger__link--tg::after {
+    background: url('../pictures/sprite.png') no-repeat -10px -66px;
+}
+
+.messenger__link--vk::before{
+  background: url('../pictures/sprite.png') no-repeat -56px -10px;
+}
+
+.messenger__link--vk::after{
   background: url('../pictures/sprite.png') no-repeat -56px -122px;
 }
 
-.messenger__link--third:hover{
-  transition: 0s;
+.messenger__link--facebook::before{
+  background: url('../pictures/sprite.png') no-repeat -102px -10px;
+}
+
+.messenger__link--facebook::after{
   background: url('../pictures/sprite.png') no-repeat -102px -178px;
 }
 
-.messenger__link--fourth:hover{
-  transition: 0s;
-  background: url('../pictures/sprite.png') no-repeat -148px -234px;
+.messenger__link--inst::before{
+  background: url('../pictures/sprite.png') no-repeat -148px -10px;
 }
 
-
-
-
+.messenger__link--inst::after{
+  background: url('../pictures/sprite.png') no-repeat -148px -234px;
+}
 
 .footer .contacts__price{
   font-size: 11px;
@@ -107,3 +132,4 @@
 .services--wrapper .footer{
   padding-top: 49px;
 }
+
