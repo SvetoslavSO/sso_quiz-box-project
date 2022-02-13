@@ -42,6 +42,11 @@
   text-decoration: none;
 }
 
+.come-in__btn:hover{
+  background: #741BBA;
+  border-color: #741BBA;
+}
+
 .btn--color--black{
   background: #8E8E8E;
   border-radius: 5px;
