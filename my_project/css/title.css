@@ -1,0 +1,34 @@
+.hat{
+  background: url('../pictures/hat-services.png') center center/ cover no-repeat;
+  width: 100%;
+}
+
+.services--container, .reviews--container{
+  color: #fff;
+}
+
+.services-header, .reviews-header{
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 112px;
+  margin-left: 0px;
+  width: 56%;
+}
+
+.breadcrumbs__list{
+  display: flex;
+  align-items: baseline;
+}
+
+.breadcrumbs__link--active{
+  font-weight: bold;
+}
+
+.services--container, .reviews--container{
+  min-height: 412px;
+}
+
+.breadcrumbs__link{
+  font-size: 14px;
+}

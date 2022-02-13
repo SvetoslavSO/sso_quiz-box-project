@@ -1,0 +1,109 @@
+.background-footer-container{
+  background: #17191C;
+}
+
+.footer__container{
+  margin-top: auto;
+}
+
+.footer{
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__column{
+  display: flex;
+  align-items: center;
+}
+
+.footer__column--right{
+  align-items: flex-end;
+}
+
+.messenger__picture:hover{
+  filter: grayscale(0.2);
+}
+
+.footer .logo{
+  margin-right: 131px;
+}
+
+.footer .messenger{
+  margin-right: 73px;
+}
+
+.messenger__list{
+  display: flex;
+}
+.messenger__item{
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+
+.messenger__item:last-child{
+  margin-right: 0;
+}
+
+.messenger__link{
+  display: block;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.messenger__link:last-child{
+  margin-right: 0;
+}
+
+.messenger__link--first::before{
+  position: absolute;
+  display: block;
+  content: '';
+  height: 36px;
+  width: 214px;
+  background: url('../pictures/sprite.png') no-repeat -10px -10px;
+  overflow:hidden;
+}
+
+.messenger__link--first:hover::before{
+  transition: 0s;
+  background: url('../pictures/sprite.png') no-repeat -10px -66px;
+}
+
+.messenger__link--second:hover{
+  transition: 0s;
+  background: url('../pictures/sprite.png') no-repeat -56px -122px;
+}
+
+.messenger__link--third:hover{
+  transition: 0s;
+  background: url('../pictures/sprite.png') no-repeat -102px -178px;
+}
+
+.messenger__link--fourth:hover{
+  transition: 0s;
+  background: url('../pictures/sprite.png') no-repeat -148px -234px;
+}
+
+
+
+
+
+.footer .contacts__price{
+  font-size: 11px;
+  margin-bottom: 6px;
+  margin-right: 0;
+}
+
+.services--wrapper .footer{
+  padding-top: 49px;
+}

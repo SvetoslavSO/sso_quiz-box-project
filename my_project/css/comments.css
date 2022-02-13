@@ -1,0 +1,107 @@
+.comments__list{
+  margin-top: 99px;
+  column-count: 2;
+  column-gap: 22px;
+  margin-bottom: 41px;
+}
+
+.comment{
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #F4F5F5;
+}
+
+.comments__piece{
+  margin-bottom: 5px;
+}
+
+.comments__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.comments__username{
+  padding-left: 25px;
+}
+
+.comments__name{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 11px;
+  text-decoration: none;
+  color: #1A1B1E;
+}
+
+.comments__name:hover{
+  text-decoration: underline;
+  color:  #2E77A4;
+}
+
+.comments__name--active{
+  text-decoration: underline;
+  color:  #2E77A4;
+}
+
+.comments__name::after{
+  content: url("../pictures/vk-blue.png");
+  height: 29px;
+}
+
+.avatar__photo{
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.comments__tag-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comments__tag{
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.comments__tag:last-child{
+  margin-right: 0;
+}
+
+.tag{
+  font-size: 13px;
+  color: #303030;
+  padding: 10px 10px;
+  border-radius: 50px;
+  background: #E7E7E7;
+}
+
+.tag--active{
+  background: #B9EAE4;
+}
+
+.comments__content{
+  padding-left: 4px;
+}
+
+.comments__title{
+  font-size: 30px;
+  color: #1A1B1E;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.comments__content-text{
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+
+.comments__data{
+  font-size: 14px;
+  color:#1A1B1E;
+  font-weight: bold;
+}

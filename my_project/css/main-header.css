@@ -1,0 +1,115 @@
+.index .hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+}
+
+.index .header {
+  margin-bottom: 132px;
+  padding-top: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.index .header__column{
+  display: flex;
+  align-items: center;
+}
+
+.feedback .header {
+  margin-bottom: 104px;
+  padding-top: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback .header__column{
+  display: flex;
+  align-items: center;
+}
+
+.games .header {
+  margin-bottom: 104px;
+  padding-top: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.games .header__column{
+  display: flex;
+  align-items: center;
+}
+
+
+.header__column .header__column--right{
+  justify-content: flex-end;
+}
+
+.logo__pic{
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo{
+  text-decoration: none;
+}
+
+header .logo {
+  display: block;
+  margin-right: 263px;
+}
+
+header .contacts{
+  margin-top: 10px;
+}
+
+.menu__list{
+  display: flex;
+}
+
+.menu__item{
+  margin-right: 67px;
+}
+
+.menu__item:last-child{
+  margin-right: 0;
+}
+
+
+.menu__title{
+  text-decoration: none;
+}
+
+.menu__title:hover{
+  color: #8F00FF;
+}
+
+.menu__title--active{
+  color: #8F00FF;
+}
+
+.contacts{
+  text-align: right;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__phone{
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  line-height: 1.0;
+}
+
+.contacts__workhours{
+  font-size: 13px;
+  margin-top: 0px;
+  margin-right: 2px;
+  line-height: 1.0;
+}

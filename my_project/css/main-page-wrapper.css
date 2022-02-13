@@ -1,0 +1,76 @@
+.index {
+  font-family: "Open Sans", Helvetica, sans-serif ;
+  font-size: 16px;
+  line-height: 1.42;
+  margin: 0;
+  color: #fff;
+  background: #17191C;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-page-wrapper{
+  position: relative;
+}
+
+.main-page-wrapper::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../pictures/background-picture.jpg") center top no-repeat, url("../pictures/background-picture-bottom.jpg" )center bottom 150px no-repeat;
+  filter: grayscale(1);
+  z-index: -1;
+}
+
+.games{
+  font-family: "Open Sans", Helvetica, sans-serif ;
+  font-size: 16px;
+  line-height: 1.42;
+  margin: 0;
+  color: #303030;
+  background: #fff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.games main {
+  margin: 0;
+  color: #303030;
+  background: #fff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.feedback{
+  font-family: "Open Sans", Helvetica, sans-serif ;
+  font-size: 16px;
+  line-height: 1.42;
+  margin: 0;
+  color: #303030;
+  background: #fff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.feedback main {
+  margin: 0;
+  color: #303030;
+  background: #fff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1140px;
+}

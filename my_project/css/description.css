@@ -1,0 +1,37 @@
+
+.description{
+  width: 56%;
+  margin-bottom: 189px;
+}
+
+.description__header{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 19px;
+  margin-left: 0px;
+}
+
+
+.description__addition{
+  font-size: 21px;
+  margin-bottom: 71px;
+  margin-left: 5px;
+}
+
+.reference{
+  background: #8F00FF;
+  border-radius: 4px;
+  padding: 20px 40px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.reference:hover{
+  background: #741BBA;
+  box-shadow: 0 0 2px 0 rgba(80, 30, 40, 0.5);
+}

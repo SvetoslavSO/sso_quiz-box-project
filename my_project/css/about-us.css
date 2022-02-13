@@ -1,0 +1,56 @@
+
+.about-us{
+  display: flex;
+  margin-bottom: 52px;
+}
+
+.about-us:before{
+  display: block;
+  content: "";
+  height: 489px;
+  width: 505px;
+  background: url("../pictures/kviz-nn.jpg") center center/cover no-repeat;
+  border-radius: 5px;
+}
+
+.about-us__description{
+  border-radius: 5px;
+  min-height: 451px;
+  max-width: 784px;
+  margin-left: -158px;
+  margin-top: 100px;
+  padding: 70px 202px 66px 81px;
+  background: linear-gradient(45deg, #8F00FF -2.44%, #148CFF 100%);
+}
+.about-us__header{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.about-us__text p{
+  margin-bottom: 20px;
+}
+
+.about-us__text p:last-child{
+  margin-bottom: 0px;
+}
+
+.about-us__text{
+  line-height: 27px;
+  font-size: 16px;
+  margin-bottom: 54px;
+}
+
+.about-us__detailed{
+  margin-left: 0px;
+  border-color: #fff;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 17px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+}

@@ -1,0 +1,55 @@
+.contacts__schedule{
+  position: relative;
+}
+
+.contacts__schedule:hover .dropdown{
+  left:initial;
+  right: 0;
+  opacity: 1;
+}
+
+.dropdown{
+  position: absolute;
+  text-align: left;
+  top: calc(100% + 10px);
+  border: 1px;
+  border-radius: 4px;
+  padding: 14px 18px;
+  border-color: #EDEDED;
+  background: #EDEDED;
+  left: -9999px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.dropdown::before{
+  content: '';
+  position: absolute;
+  top: -9px;
+  right: 40px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 11px 9px 11px;
+  border-color: transparent transparent #EDEDED transparent;
+}
+
+.dropdown::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -9px;
+  width: 100%;
+  height: 20px;
+}
+
+.dropdown__item{
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 13px;
+  color: #1E1F20;
+}
+
+.dropdown__item--active{
+  font-weight: bold;
+}
