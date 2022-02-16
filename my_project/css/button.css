@@ -17,6 +17,7 @@
 .events__btn:hover{
   background: #741BBA;
   color: #fff;
+  transition: 0.5s;
 }
 
 .events__btn--active{
@@ -45,6 +46,7 @@
 .come-in__btn:hover{
   background: #741BBA;
   border-color: #741BBA;
+  transition: 0.5s;
 }
 
 .btn--color--black{
@@ -65,6 +67,7 @@
 .btn--color--black:hover{
   background: #2B2B2B;
   border-color: #2B2B2B;
+  transition: 0.5s;
 }
 
 .btn--color--purple{
@@ -85,4 +88,5 @@
 .btn--color--purple:hover{
   background: #741BBA;
   border-color: #741BBA;
+  transition: 0.5s;
 }
