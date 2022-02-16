@@ -39,6 +39,7 @@
 .comments__name:hover{
   text-decoration: underline;
   color:  #2E77A4;
+  transition: 0.5s;
 }
 
 .comments__name--active{
@@ -78,6 +79,10 @@
   padding: 10px 10px;
   border-radius: 50px;
   background: #E7E7E7;
+}
+
+.tag{
+  transition: 0.5s;
 }
 
 .tag--active{
