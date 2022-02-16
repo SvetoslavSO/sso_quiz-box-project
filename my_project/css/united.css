@@ -28,7 +28,3 @@ a {
    margin: 0 auto;
    width: 1140px;
  }
-
- :hover{
-   transition: 0.5s;
- }
