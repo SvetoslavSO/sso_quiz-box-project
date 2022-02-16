@@ -27,6 +27,7 @@
 }
 .partners__picture:hover{
   filter: none;
+  transition: 0.5s;
 }
 
 .partners__partner:nth-child(4n + 1) {
